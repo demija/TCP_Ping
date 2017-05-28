@@ -61,9 +61,7 @@ public class ClientThread extends TimerTask {
                             vracenaPoruka.setIdPoruke(dIn.readLong());
                             break;
                         case 2:
-                            if(vracenaPoruka.getIdPoruke() == poslanaPoruka.getIdPoruke()){
-                                poslanaPoruka.setTimeStampC(dIn.readLong());
-                            }
+                            poslanaPoruka.setTimeStampC(dIn.readLong());
                             break;
                         case 3:
                             vracenaPoruka.setTekstPoruke(dIn.readUTF());
