@@ -3,5 +3,5 @@ Pitcher sends message to the catcher which catches the message and returns to th
 
 
 # Deployment
-⋅⋅* Java
-⋅⋅* JComannder
+**Java**
+**JComannder**
